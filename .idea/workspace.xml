@@ -151,6 +151,9 @@
       <find>array</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -197,11 +200,12 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="84" />
-    <option name="y" value="24" />
-    <option name="width" value="1752" />
-    <option name="height" value="1032" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1944" />
+    <option name="height" value="1044" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <autoscrollFromSource ProjectPane="true" />
@@ -302,12 +306,12 @@
       <workItem from="1550619252699" duration="3332000" />
       <workItem from="1551046055840" duration="609000" />
       <workItem from="1551472301935" duration="430000" />
-      <workItem from="1558983453073" duration="1330000" />
+      <workItem from="1558983453073" duration="1462000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92590000" />
+    <option name="totallyTimeSpent" value="92722000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
