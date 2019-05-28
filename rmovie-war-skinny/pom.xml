@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ /*
+  ~  *     Copyright    : Copyright notice - Licensed Materials - Property of IBM
+  ~  *     Restricted Materials of IBM. Reproduction, modification and
+  ~  *     redistribution are permitted under the terms of the associated license.
+  ~  *     © Copyright IBM Corporation [2018]. All Rights Reserved.
+  ~  *     U.S. Government Users Restricted Rights: Use, duplication or disclosure
+  ~  *     restricted by GSA ADP Schedule Contract with IBM Corp
+  ~  *
+  ~  *     Author: Hesham.AbdelRaouf.Elbadawi@IBM.com
+  ~  */
+  -->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.ibm.rmovie</groupId>
+        <artifactId>rmovie-parent</artifactId>
+        <version>1.0</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>flexcubesim-war-skinny</artifactId>
+    <packaging>war</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.ibm.rmovie</groupId>
+            <artifactId>rmovie-service</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ibm.rmovie</groupId>
+            <artifactId>rmovie-rest</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.ibm.rmovie</groupId>
+            <artifactId>rmovie-entity</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jboss.spec.javax.ws.rs</groupId>
+            <artifactId>jboss-jaxrs-api_1.1_spec</artifactId>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>2.1.1</version>
+                <configuration>
+                    <!--<webXml>src/main/webapp/WEB-INF/web.xml</webXml>-->
+                    <!--<webResources>-->
+                    <!--<resource>-->
+                    <!--<directory>src/main/webapp/WEB-INF</directory>-->
+                    <!--<filtering>true</filtering>-->
+                    <!--<include>jboss-web.xml</include>-->
+                    <!--<targetPath>/WEB-INF</targetPath>-->
+                    <!--</resource>-->
+                    <!--</webResources>-->
+                    <!--<packagingIncludes>-->
+                    <!--WEB-INF/lib/flexcubesim-entities-${project.version}.jar,-->
+                    <!--WEB-INF/lib/flexcubesim-service-${project.version}.jar,-->
+                    <!--WEB-INF/lib/flexcubesim-rest-${project.version}.jar-->
+                    <!--&lt;!&ndash; more here&ndash;&gt;-->
+                    <!--</packagingIncludes>-->
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

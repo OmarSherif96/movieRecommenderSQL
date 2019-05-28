@@ -1,0 +1,72 @@
+2019-02-05 13:33:45,680 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0001: Content added at location C:\Users\OmarTolba\Desktop\IdeaProjects\rmovieParent\wildfly-10.1.0.Final\standalone\data\content\54\0714de4c1826cb59acae5c02c90db8ffd6e03e\content
+2019-02-05 13:33:45,708 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 69) WFLYUT0022: Unregistered web context: /movies
+2019-02-05 13:33:45,740 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 71) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'flexcubesim-war-skinny-1.0.war#rmovie'
+2019-02-05 13:33:45,743 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 71) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'flexcubesim-war-skinny-1.0.war#rmovie'
+2019-02-05 13:33:45,763 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 72) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2019-02-05 13:33:45,784 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment flexcubesim-war-skinny-1.0.war (runtime-name: flexcubesim-war-skinny-1.0.war) in 96ms
+2019-02-05 13:33:45,786 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "flexcubesim-war-skinny-1.0.war" (runtime-name: "flexcubesim-war-skinny-1.0.war")
+2019-02-05 13:33:48,675 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0059: Class Path entry xml-apis.jar in /C:/Users/OmarTolba/Desktop/IdeaProjects/rmovieParent/wildfly-10.1.0.Final/bin/content/flexcubesim-war-skinny-1.0.war/WEB-INF/lib/serializer-2.7.1.jar  does not point to a valid jar for a Class-Path reference.
+2019-02-05 13:33:48,677 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0059: Class Path entry xercesImpl.jar in /C:/Users/OmarTolba/Desktop/IdeaProjects/rmovieParent/wildfly-10.1.0.Final/bin/content/flexcubesim-war-skinny-1.0.war/WEB-INF/lib/xalan-2.7.1.jar  does not point to a valid jar for a Class-Path reference.
+2019-02-05 13:33:48,677 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0059: Class Path entry xml-apis.jar in /C:/Users/OmarTolba/Desktop/IdeaProjects/rmovieParent/wildfly-10.1.0.Final/bin/content/flexcubesim-war-skinny-1.0.war/WEB-INF/lib/xalan-2.7.1.jar  does not point to a valid jar for a Class-Path reference.
+2019-02-05 13:33:48,678 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0059: Class Path entry serializer.jar in /C:/Users/OmarTolba/Desktop/IdeaProjects/rmovieParent/wildfly-10.1.0.Final/bin/content/flexcubesim-war-skinny-1.0.war/WEB-INF/lib/xalan-2.7.1.jar  does not point to a valid jar for a Class-Path reference.
+2019-02-05 13:33:48,702 INFO  [org.jboss.as.jpa] (MSC service thread 1-5) WFLYJPA0002: Read persistence.xml for rmovie
+2019-02-05 13:33:48,732 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 72) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'flexcubesim-war-skinny-1.0.war#rmovie'
+2019-02-05 13:33:48,732 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 72) HHH000204: Processing PersistenceUnitInfo [
+	name: rmovie
+	...]
+2019-02-05 13:33:48,739 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment flexcubesim-war-skinny-1.0.war
+2019-02-05 13:33:48,759 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'RmovieQuery' in deployment unit 'deployment "flexcubesim-war-skinny-1.0.war"' are as follows:
+
+	java:global/flexcubesim-war-skinny-1.0/RmovieQuery!com.ibm.rmovie.service.RmovieQuery
+	java:app/flexcubesim-war-skinny-1.0/RmovieQuery!com.ibm.rmovie.service.RmovieQuery
+	java:module/RmovieQuery!com.ibm.rmovie.service.RmovieQuery
+	java:global/flexcubesim-war-skinny-1.0/RmovieQuery
+	java:app/flexcubesim-war-skinny-1.0/RmovieQuery
+	java:module/RmovieQuery
+
+2019-02-05 13:33:48,760 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'RmovieStore' in deployment unit 'deployment "flexcubesim-war-skinny-1.0.war"' are as follows:
+
+	java:global/flexcubesim-war-skinny-1.0/RmovieStore!com.ibm.rmovie.service.RmovieStore
+	java:app/flexcubesim-war-skinny-1.0/RmovieStore!com.ibm.rmovie.service.RmovieStore
+	java:module/RmovieStore!com.ibm.rmovie.service.RmovieStore
+	java:global/flexcubesim-war-skinny-1.0/RmovieStore
+	java:app/flexcubesim-war-skinny-1.0/RmovieStore
+	java:module/RmovieStore
+
+2019-02-05 13:33:48,792 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 72) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2019-02-05 13:33:48,793 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 72) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2019-02-05 13:33:48,803 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 72) WFLYCLINF0002: Started client-mappings cache from ejb container
+2019-02-05 13:33:48,815 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 72) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'flexcubesim-war-skinny-1.0.war#rmovie'
+2019-02-05 13:33:48,822 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 72) HHH000400: Using dialect: com.ibm.rmovie.dialect.PatchedMySQL5InnoDBDialect
+2019-02-05 13:33:48,836 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 72) Envers integration enabled? : true
+2019-02-05 13:33:48,874 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 72) HHH000227: Running hbm2ddl schema export
+2019-02-05 13:33:48,876 INFO  [stdout] (ServerService Thread Pool -- 72) Hibernate: alter table movie drop foreign key FKcqhhlsahn57jwwb3nisqs9rn9
+2019-02-05 13:33:48,901 INFO  [stdout] (ServerService Thread Pool -- 72) Hibernate: alter table MOVIE_ACTOR drop foreign key FKo7g02apc5ywq0ewvf2fjkbdea
+2019-02-05 13:33:48,908 INFO  [stdout] (ServerService Thread Pool -- 72) Hibernate: alter table MOVIE_ACTOR drop foreign key FK9gom9lsujr2rj2kvmcc0a4k7y
+2019-02-05 13:33:48,917 INFO  [stdout] (ServerService Thread Pool -- 72) Hibernate: alter table MOVIE_GENRE drop foreign key FK7q9u4aoy3y9w9b8ej5dvchg2m
+2019-02-05 13:33:48,924 INFO  [stdout] (ServerService Thread Pool -- 72) Hibernate: alter table MOVIE_GENRE drop foreign key FKhhewfp6gejlrddptiqjclppb9
+2019-02-05 13:33:48,931 INFO  [stdout] (ServerService Thread Pool -- 72) Hibernate: drop table if exists genre
+2019-02-05 13:33:48,950 INFO  [stdout] (ServerService Thread Pool -- 72) Hibernate: drop table if exists hibernate_sequence
+2019-02-05 13:33:48,965 INFO  [stdout] (ServerService Thread Pool -- 72) Hibernate: drop table if exists movie
+2019-02-05 13:33:48,978 INFO  [stdout] (ServerService Thread Pool -- 72) Hibernate: drop table if exists MOVIE_ACTOR
+2019-02-05 13:33:48,990 INFO  [stdout] (ServerService Thread Pool -- 72) Hibernate: drop table if exists MOVIE_GENRE
+2019-02-05 13:33:49,003 INFO  [stdout] (ServerService Thread Pool -- 72) Hibernate: drop table if exists person
+2019-02-05 13:33:49,016 INFO  [stdout] (ServerService Thread Pool -- 72) Hibernate: create table genre (pk decimal(19,2) not null, genreName varchar(255), primary key (pk)) ENGINE=InnoDB
+2019-02-05 13:33:49,044 INFO  [stdout] (ServerService Thread Pool -- 72) Hibernate: create table hibernate_sequence (next_val bigint) ENGINE=InnoDB
+2019-02-05 13:33:49,078 INFO  [stdout] (ServerService Thread Pool -- 72) Hibernate: insert into hibernate_sequence values ( 1 )
+2019-02-05 13:33:49,081 INFO  [stdout] (ServerService Thread Pool -- 72) Hibernate: insert into hibernate_sequence values ( 1 )
+2019-02-05 13:33:49,084 INFO  [stdout] (ServerService Thread Pool -- 72) Hibernate: insert into hibernate_sequence values ( 1 )
+2019-02-05 13:33:49,087 INFO  [stdout] (ServerService Thread Pool -- 72) Hibernate: create table movie (pk decimal(19,2) not null, movie varchar(255), movieYear integer, producerfk decimal(19,2), primary key (pk)) ENGINE=InnoDB
+2019-02-05 13:33:49,116 INFO  [stdout] (ServerService Thread Pool -- 72) Hibernate: create table MOVIE_ACTOR (moviefk decimal(19,2) not null, actorfk decimal(19,2) not null, primary key (moviefk, actorfk)) ENGINE=InnoDB
+2019-02-05 13:33:49,147 INFO  [stdout] (ServerService Thread Pool -- 72) Hibernate: create table MOVIE_GENRE (moviefk decimal(19,2) not null, genrefk decimal(19,2) not null, primary key (moviefk, genrefk)) ENGINE=InnoDB
+2019-02-05 13:33:49,179 INFO  [stdout] (ServerService Thread Pool -- 72) Hibernate: create table person (pk decimal(19,2) not null, job varchar(255), name varchar(255), primary key (pk)) ENGINE=InnoDB
+2019-02-05 13:33:49,210 INFO  [stdout] (ServerService Thread Pool -- 72) Hibernate: alter table movie add constraint FKcqhhlsahn57jwwb3nisqs9rn9 foreign key (producerfk) references person (pk)
+2019-02-05 13:33:49,308 INFO  [stdout] (ServerService Thread Pool -- 72) Hibernate: alter table MOVIE_ACTOR add constraint FKo7g02apc5ywq0ewvf2fjkbdea foreign key (actorfk) references person (pk)
+2019-02-05 13:33:49,413 INFO  [stdout] (ServerService Thread Pool -- 72) Hibernate: alter table MOVIE_ACTOR add constraint FK9gom9lsujr2rj2kvmcc0a4k7y foreign key (moviefk) references movie (pk)
+2019-02-05 13:33:49,474 INFO  [stdout] (ServerService Thread Pool -- 72) Hibernate: alter table MOVIE_GENRE add constraint FK7q9u4aoy3y9w9b8ej5dvchg2m foreign key (genrefk) references genre (pk)
+2019-02-05 13:33:49,554 INFO  [stdout] (ServerService Thread Pool -- 72) Hibernate: alter table MOVIE_GENRE add constraint FKhhewfp6gejlrddptiqjclppb9 foreign key (moviefk) references movie (pk)
+2019-02-05 13:33:49,627 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 72) HHH000230: Schema export complete
+2019-02-05 13:33:49,628 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 72) HHH000397: Using ASTQueryTranslatorFactory
+2019-02-05 13:33:49,795 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 70) WFLYUT0021: Registered web context: /movies
+2019-02-05 13:33:50,091 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0016: Replaced deployment "flexcubesim-war-skinny-1.0.war" with deployment "flexcubesim-war-skinny-1.0.war"
+2019-02-05 13:33:50,094 INFO  [org.jboss.as.repository] (DeploymentScanner-threads - 2) WFLYDR0002: Content removed from location C:\Users\OmarTolba\Desktop\IdeaProjects\rmovieParent\wildfly-10.1.0.Final\standalone\data\content\4a\49d73827626e468b5f4a6354e6c37c58033174\content

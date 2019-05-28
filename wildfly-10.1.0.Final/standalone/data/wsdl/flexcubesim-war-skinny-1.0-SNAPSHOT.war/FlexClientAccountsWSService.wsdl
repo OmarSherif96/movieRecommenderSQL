@@ -1,0 +1,691 @@
+<?xml version='1.0' encoding='UTF-8'?><wsdl:definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:tns="http://rest.flexcubesim.cpt.ibm.com/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:ns1="http://schemas.xmlsoap.org/soap/http" name="FlexClientAccountsWSService" targetNamespace="http://rest.flexcubesim.cpt.ibm.com/">
+  <wsdl:types>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://rest.flexcubesim.cpt.ibm.com/" elementFormDefault="unqualified" targetNamespace="http://rest.flexcubesim.cpt.ibm.com/" version="1.0">
+
+  <xs:element name="createAddress" type="tns:createAddress"/>
+
+  <xs:element name="createAddressResponse" type="tns:createAddressResponse"/>
+
+  <xs:element name="createAuditEvent" type="tns:createAuditEvent"/>
+
+  <xs:element name="createAuditEventResponse" type="tns:createAuditEventResponse"/>
+
+  <xs:element name="createCIFAppRequest" type="tns:createCIFAppRequest"/>
+
+  <xs:element name="createCIFAppRequestResponse" type="tns:createCIFAppRequestResponse"/>
+
+  <xs:element name="createCompany" type="tns:createCompany"/>
+
+  <xs:element name="createCompanyResponse" type="tns:createCompanyResponse"/>
+
+  <xs:element name="createCreditLimit" type="tns:createCreditLimit"/>
+
+  <xs:element name="createCreditLimitResponse" type="tns:createCreditLimitResponse"/>
+
+  <xs:element name="createLimitsRecord" type="tns:createLimitsRecord"/>
+
+  <xs:element name="createLimitsRecordResponse" type="tns:createLimitsRecordResponse"/>
+
+  <xs:element name="findCompanyByCIFNumber" type="tns:findCompanyByCIFNumber"/>
+
+  <xs:element name="findCompanyByCIFNumberResponse" type="tns:findCompanyByCIFNumberResponse"/>
+
+  <xs:element name="findCompanyByComRegNumber" type="tns:findCompanyByComRegNumber"/>
+
+  <xs:element name="findCompanyByComRegNumberResponse" type="tns:findCompanyByComRegNumberResponse"/>
+
+  <xs:element name="findCompanyByNameWS" type="tns:findCompanyByNameWS"/>
+
+  <xs:element name="findCompanyByNameWSResponse" type="tns:findCompanyByNameWSResponse"/>
+
+  <xs:element name="findCompanyByTaxNumber" type="tns:findCompanyByTaxNumber"/>
+
+  <xs:element name="findCompanyByTaxNumberResponse" type="tns:findCompanyByTaxNumberResponse"/>
+
+  <xs:element name="findCreditLimitsByCifNumber" type="tns:findCreditLimitsByCifNumber"/>
+
+  <xs:element name="findCreditLimitsByCifNumberResponse" type="tns:findCreditLimitsByCifNumberResponse"/>
+
+  <xs:element name="findCreditLimitsByPid" type="tns:findCreditLimitsByPid"/>
+
+  <xs:element name="findCreditLimitsByPidResponse" type="tns:findCreditLimitsByPidResponse"/>
+
+  <xs:element name="getAudits" type="tns:getAudits"/>
+
+  <xs:element name="getAuditsResponse" type="tns:getAuditsResponse"/>
+
+  <xs:element name="listendpointsWS" type="tns:listendpointsWS"/>
+
+  <xs:element name="listendpointsWSResponse" type="tns:listendpointsWSResponse"/>
+
+  <xs:complexType name="findCompanyByCIFNumber">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="findCompanyByCIFNumberResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:company"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="company">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="activityType" type="xs:string"/>
+      <xs:element minOccurs="0" name="cifAppRequest" type="tns:cifAppRequest"/>
+      <xs:element minOccurs="0" name="comRegDate" type="xs:string"/>
+      <xs:element minOccurs="0" name="comRegEstablishDate" type="xs:string"/>
+      <xs:element minOccurs="0" name="comRegExpiryDate" type="xs:string"/>
+      <xs:element minOccurs="0" name="comRegName" type="xs:string"/>
+      <xs:element minOccurs="0" name="comRegistrationNum" type="xs:string"/>
+      <xs:element minOccurs="0" name="companyAddress" type="tns:address"/>
+      <xs:element minOccurs="0" name="customerAddressValue" type="xs:string"/>
+      <xs:element minOccurs="0" name="email" type="xs:string"/>
+      <xs:element minOccurs="0" name="establishDate" type="xs:string"/>
+      <xs:element minOccurs="0" name="existenceCountryValue" type="xs:string"/>
+      <xs:element minOccurs="0" name="fax" type="xs:string"/>
+      <xs:element name="hasComRegistration" type="xs:boolean"/>
+      <xs:element minOccurs="0" name="lastComRegDate" type="xs:string"/>
+      <xs:element minOccurs="0" name="legalForm" type="xs:string"/>
+      <xs:element minOccurs="0" name="lengthOfService" type="xs:string"/>
+      <xs:element minOccurs="0" name="mailingAddress" type="tns:address"/>
+      <xs:element minOccurs="0" name="mailingWithBankValue" type="xs:string"/>
+      <xs:element minOccurs="0" name="name" type="xs:string"/>
+      <xs:element minOccurs="0" name="officialJornalDate" type="xs:string"/>
+      <xs:element minOccurs="0" name="officialJornalNum" type="xs:string"/>
+      <xs:element minOccurs="0" name="originCountryValue" type="xs:string"/>
+      <xs:element minOccurs="0" name="phone" type="xs:string"/>
+      <xs:element minOccurs="0" name="pk" type="xs:integer"/>
+      <xs:element name="profitable" type="xs:boolean"/>
+      <xs:element minOccurs="0" name="regOffice" type="xs:string"/>
+      <xs:element minOccurs="0" name="renewalDate" type="xs:string"/>
+      <xs:element minOccurs="0" name="representativeTypeValue" type="xs:string"/>
+      <xs:element minOccurs="0" name="taxCardExpiryDate" type="xs:string"/>
+      <xs:element minOccurs="0" name="taxCardIssueAuth" type="xs:string"/>
+      <xs:element minOccurs="0" name="taxCardIssueDate" type="xs:string"/>
+      <xs:element minOccurs="0" name="taxCardNumber" type="xs:string"/>
+      <xs:element minOccurs="0" name="taxCountryValue" type="xs:string"/>
+      <xs:element minOccurs="0" name="taxLogNumber" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="cifAppRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="branchValue" type="xs:string"/>
+      <xs:element minOccurs="0" name="cifNumber" type="xs:string"/>
+      <xs:element minOccurs="0" name="clientTypeValue" type="xs:string"/>
+      <xs:element minOccurs="0" name="creationDate" type="xs:string"/>
+      <xs:element minOccurs="0" name="operationValue" type="xs:string"/>
+      <xs:element minOccurs="0" name="pk" type="xs:integer"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="address">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="city" type="xs:string"/>
+      <xs:element minOccurs="0" name="countryValue" type="xs:string"/>
+      <xs:element minOccurs="0" name="floor" type="xs:string"/>
+      <xs:element minOccurs="0" name="number" type="xs:int"/>
+      <xs:element minOccurs="0" name="pk" type="xs:integer"/>
+      <xs:element minOccurs="0" name="street" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="createAuditEvent">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:auditTrail"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="auditTrail">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="activity" type="xs:string"/>
+      <xs:element name="appId" type="xs:int"/>
+      <xs:element minOccurs="0" name="bpdId" type="xs:string"/>
+      <xs:element minOccurs="0" name="comments" type="xs:string"/>
+      <xs:element minOccurs="0" name="decision" type="xs:string"/>
+      <xs:element minOccurs="0" name="endTime" type="xs:string"/>
+      <xs:element minOccurs="0" name="originatingSystem" type="xs:string"/>
+      <xs:element minOccurs="0" name="pk" type="xs:integer"/>
+      <xs:element minOccurs="0" name="ruleSetId" type="xs:string"/>
+      <xs:element minOccurs="0" name="startTime" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="createAuditEventResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:boolean"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="findCompanyByComRegNumber">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="findCompanyByComRegNumberResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:company"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="createCreditLimit">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:creditLimits"/>
+      <xs:element minOccurs="0" name="arg1" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="creditLimits">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="accountManagmentValue" type="xs:string"/>
+      <xs:element minOccurs="0" name="accountStatusValue" type="xs:string"/>
+      <xs:element minOccurs="0" name="areaValue" type="xs:string"/>
+      <xs:element minOccurs="0" name="branchValue" type="xs:string"/>
+      <xs:element minOccurs="0" name="cifNumber" type="xs:string"/>
+      <xs:element minOccurs="0" name="clientCreditLimit" type="tns:limitsRecord"/>
+      <xs:element minOccurs="0" name="clientGuarantieLimit" type="tns:limitsRecord"/>
+      <xs:element minOccurs="0" name="company" type="tns:company"/>
+      <xs:element minOccurs="0" name="crNumber" type="xs:string"/>
+      <xs:element minOccurs="0" name="customerName" type="xs:string"/>
+      <xs:element minOccurs="0" name="customerObligationStatusValue" type="xs:string"/>
+      <xs:element minOccurs="0" name="expiryDate" type="xs:string"/>
+      <xs:element minOccurs="0" name="facilityRange" type="xs:string"/>
+      <xs:element minOccurs="0" name="investigationRemarks" type="xs:string"/>
+      <xs:element minOccurs="0" name="lastApprovalDate" type="xs:string"/>
+      <xs:element minOccurs="0" name="mainActivity" type="xs:string"/>
+      <xs:element minOccurs="0" name="memoDate" type="xs:string"/>
+      <xs:element minOccurs="0" name="participantsCreditLimit" type="tns:limitsRecord"/>
+      <xs:element minOccurs="0" name="participantsGarantiLimit" type="tns:limitsRecord"/>
+      <xs:element minOccurs="0" name="pid" type="xs:string"/>
+      <xs:element minOccurs="0" name="pk" type="xs:integer"/>
+      <xs:element minOccurs="0" name="reviewDate" type="xs:string"/>
+      <xs:element minOccurs="0" name="riskRatingCurrent" type="xs:string"/>
+      <xs:element minOccurs="0" name="riskRatingExternal" type="xs:string"/>
+      <xs:element minOccurs="0" name="riskRatingProposed" type="xs:string"/>
+      <xs:element minOccurs="0" name="studyPurposeValue" type="xs:string"/>
+      <xs:element minOccurs="0" name="tableCurrency" type="xs:string"/>
+      <xs:element minOccurs="0" name="totalCreditLimit" type="tns:limitsRecord"/>
+      <xs:element minOccurs="0" name="totalGarantiLimit" type="tns:limitsRecord"/>
+      <xs:element minOccurs="0" name="totalLoan" type="xs:string"/>
+      <xs:element minOccurs="0" name="totalLoanTxt" type="xs:string"/>
+      <xs:element minOccurs="0" name="validityAuthorityValue" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="limitsRecord">
+    <xs:sequence>
+      <xs:element name="direct" type="xs:boolean"/>
+      <xs:element minOccurs="0" name="existingLimit" type="xs:string"/>
+      <xs:element minOccurs="0" name="existingLimitLE" type="xs:string"/>
+      <xs:element minOccurs="0" name="existingLimitUSD" type="xs:string"/>
+      <xs:element minOccurs="0" name="overAllTotalLE" type="xs:string"/>
+      <xs:element minOccurs="0" name="pk" type="xs:integer"/>
+      <xs:element minOccurs="0" name="proposedChange" type="xs:string"/>
+      <xs:element minOccurs="0" name="totalLE" type="xs:string"/>
+      <xs:element minOccurs="0" name="totalUSD" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="createCreditLimitResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:boolean"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="createCIFAppRequest">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:cifAppRequest"/>
+      <xs:element minOccurs="0" name="arg1" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="createCIFAppRequestResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:boolean"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="findCompanyByNameWS">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="findCompanyByNameWSResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:company"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getAudits">
+    <xs:sequence>
+      <xs:element name="arg0" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="getAuditsResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:auditTrail"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="createLimitsRecord">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:limitsRecord"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="createLimitsRecordResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:boolean"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="findCreditLimitsByCifNumber">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="findCreditLimitsByCifNumberResponse">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="tns:creditLimits"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="listendpointsWS">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="listendpointsWSResponse">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" minOccurs="0" name="return" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="createCompany">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:company"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="createCompanyResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:boolean"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="findCompanyByTaxNumber">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="findCompanyByTaxNumberResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:company"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="createAddress">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:address"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="createAddressResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:boolean"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="findCreditLimitsByPid">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="findCreditLimitsByPidResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:creditLimits"/>
+    </xs:sequence>
+  </xs:complexType>
+
+</xs:schema>
+  </wsdl:types>
+  <wsdl:message name="createAuditEvent">
+    <wsdl:part element="tns:createAuditEvent" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="createCIFAppRequestResponse">
+    <wsdl:part element="tns:createCIFAppRequestResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="createCreditLimit">
+    <wsdl:part element="tns:createCreditLimit" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="createCIFAppRequest">
+    <wsdl:part element="tns:createCIFAppRequest" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="findCompanyByNameWS">
+    <wsdl:part element="tns:findCompanyByNameWS" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="createAddressResponse">
+    <wsdl:part element="tns:createAddressResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getAudits">
+    <wsdl:part element="tns:getAudits" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="findCreditLimitsByCifNumberResponse">
+    <wsdl:part element="tns:findCreditLimitsByCifNumberResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="createLimitsRecord">
+    <wsdl:part element="tns:createLimitsRecord" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="createAuditEventResponse">
+    <wsdl:part element="tns:createAuditEventResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="listendpointsWS">
+    <wsdl:part element="tns:listendpointsWS" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getAuditsResponse">
+    <wsdl:part element="tns:getAuditsResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="findCreditLimitsByPid">
+    <wsdl:part element="tns:findCreditLimitsByPid" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="findCompanyByCIFNumber">
+    <wsdl:part element="tns:findCompanyByCIFNumber" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="findCompanyByCIFNumberResponse">
+    <wsdl:part element="tns:findCompanyByCIFNumberResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="findCompanyByComRegNumber">
+    <wsdl:part element="tns:findCompanyByComRegNumber" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="findCompanyByNameWSResponse">
+    <wsdl:part element="tns:findCompanyByNameWSResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="findCompanyByTaxNumberResponse">
+    <wsdl:part element="tns:findCompanyByTaxNumberResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="findCompanyByComRegNumberResponse">
+    <wsdl:part element="tns:findCompanyByComRegNumberResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="createCompanyResponse">
+    <wsdl:part element="tns:createCompanyResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="findCreditLimitsByCifNumber">
+    <wsdl:part element="tns:findCreditLimitsByCifNumber" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="findCreditLimitsByPidResponse">
+    <wsdl:part element="tns:findCreditLimitsByPidResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="createCompany">
+    <wsdl:part element="tns:createCompany" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="findCompanyByTaxNumber">
+    <wsdl:part element="tns:findCompanyByTaxNumber" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="createCreditLimitResponse">
+    <wsdl:part element="tns:createCreditLimitResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="listendpointsWSResponse">
+    <wsdl:part element="tns:listendpointsWSResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="createLimitsRecordResponse">
+    <wsdl:part element="tns:createLimitsRecordResponse" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="createAddress">
+    <wsdl:part element="tns:createAddress" name="parameters">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="FlexClientAccountsWS">
+    <wsdl:operation name="findCompanyByCIFNumber">
+      <wsdl:input message="tns:findCompanyByCIFNumber" name="findCompanyByCIFNumber">
+    </wsdl:input>
+      <wsdl:output message="tns:findCompanyByCIFNumberResponse" name="findCompanyByCIFNumberResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createAuditEvent">
+      <wsdl:input message="tns:createAuditEvent" name="createAuditEvent">
+    </wsdl:input>
+      <wsdl:output message="tns:createAuditEventResponse" name="createAuditEventResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="findCompanyByComRegNumber">
+      <wsdl:input message="tns:findCompanyByComRegNumber" name="findCompanyByComRegNumber">
+    </wsdl:input>
+      <wsdl:output message="tns:findCompanyByComRegNumberResponse" name="findCompanyByComRegNumberResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createCreditLimit">
+      <wsdl:input message="tns:createCreditLimit" name="createCreditLimit">
+    </wsdl:input>
+      <wsdl:output message="tns:createCreditLimitResponse" name="createCreditLimitResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createCIFAppRequest">
+      <wsdl:input message="tns:createCIFAppRequest" name="createCIFAppRequest">
+    </wsdl:input>
+      <wsdl:output message="tns:createCIFAppRequestResponse" name="createCIFAppRequestResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="findCompanyByNameWS">
+      <wsdl:input message="tns:findCompanyByNameWS" name="findCompanyByNameWS">
+    </wsdl:input>
+      <wsdl:output message="tns:findCompanyByNameWSResponse" name="findCompanyByNameWSResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAudits">
+      <wsdl:input message="tns:getAudits" name="getAudits">
+    </wsdl:input>
+      <wsdl:output message="tns:getAuditsResponse" name="getAuditsResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createLimitsRecord">
+      <wsdl:input message="tns:createLimitsRecord" name="createLimitsRecord">
+    </wsdl:input>
+      <wsdl:output message="tns:createLimitsRecordResponse" name="createLimitsRecordResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="findCreditLimitsByCifNumber">
+      <wsdl:input message="tns:findCreditLimitsByCifNumber" name="findCreditLimitsByCifNumber">
+    </wsdl:input>
+      <wsdl:output message="tns:findCreditLimitsByCifNumberResponse" name="findCreditLimitsByCifNumberResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="listendpointsWS">
+      <wsdl:input message="tns:listendpointsWS" name="listendpointsWS">
+    </wsdl:input>
+      <wsdl:output message="tns:listendpointsWSResponse" name="listendpointsWSResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createCompany">
+      <wsdl:input message="tns:createCompany" name="createCompany">
+    </wsdl:input>
+      <wsdl:output message="tns:createCompanyResponse" name="createCompanyResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="findCompanyByTaxNumber">
+      <wsdl:input message="tns:findCompanyByTaxNumber" name="findCompanyByTaxNumber">
+    </wsdl:input>
+      <wsdl:output message="tns:findCompanyByTaxNumberResponse" name="findCompanyByTaxNumberResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createAddress">
+      <wsdl:input message="tns:createAddress" name="createAddress">
+    </wsdl:input>
+      <wsdl:output message="tns:createAddressResponse" name="createAddressResponse">
+    </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="findCreditLimitsByPid">
+      <wsdl:input message="tns:findCreditLimitsByPid" name="findCreditLimitsByPid">
+    </wsdl:input>
+      <wsdl:output message="tns:findCreditLimitsByPidResponse" name="findCreditLimitsByPidResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="FlexClientAccountsWSServiceSoapBinding" type="tns:FlexClientAccountsWS">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="findCompanyByCIFNumber">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="findCompanyByCIFNumber">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="findCompanyByCIFNumberResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createAuditEvent">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="createAuditEvent">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="createAuditEventResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="findCompanyByComRegNumber">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="findCompanyByComRegNumber">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="findCompanyByComRegNumberResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createCIFAppRequest">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="createCIFAppRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="createCIFAppRequestResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createCreditLimit">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="createCreditLimit">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="createCreditLimitResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="findCompanyByNameWS">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="findCompanyByNameWS">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="findCompanyByNameWSResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getAudits">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="getAudits">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getAuditsResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createLimitsRecord">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="createLimitsRecord">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="createLimitsRecordResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="findCreditLimitsByCifNumber">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="findCreditLimitsByCifNumber">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="findCreditLimitsByCifNumberResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="listendpointsWS">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="listendpointsWS">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="listendpointsWSResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createCompany">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="createCompany">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="createCompanyResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="findCompanyByTaxNumber">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="findCompanyByTaxNumber">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="findCompanyByTaxNumberResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="createAddress">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="createAddress">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="createAddressResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="findCreditLimitsByPid">
+      <soap:operation soapAction="" style="document"/>
+      <wsdl:input name="findCreditLimitsByPid">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="findCreditLimitsByPidResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="FlexClientAccountsWSService">
+    <wsdl:port binding="tns:FlexClientAccountsWSServiceSoapBinding" name="FlexClientAccountsWSPort">
+      <soap:address location="http://heshams-macbook-pro.local:8888/flexcube/FlexClientAccountsWS"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,350 @@
+2018-09-25 17:36:52,428 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2018-09-25 17:36:53,098 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2018-09-25 17:36:53,209 INFO  [org.jboss.as] (MSC service thread 1-6) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2018-09-25 17:36:53,211 DEBUG [org.jboss.as.config] (MSC service thread 1-6) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.lwawt.macosx.LWCToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	ftp.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	gopherProxySet = false
+	http.nonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	java.awt.graphicsenv = sun.awt.CGraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.lwawt.macosx.CPrinterJob
+	java.class.path = /Users/hesham/CIC/dev/CBE-KYC/MiddleWare-JavaSims/MOI/wildfly-10.1.0.Final/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/endorsed
+	java.ext.dirs = /Users/hesham/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java
+	java.home = /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre
+	java.io.tmpdir = /var/folders/m0/p73py4v51hl77s2bvz4s9kxw0000gn/T/
+	java.library.path = /Users/hesham/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_151-b12
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_151
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.151-b12
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = /Users/hesham/CIC/dev/CBE-KYC/MiddleWare-JavaSims/MOI/wildfly-10.1.0.Final
+	jboss.host.name = heshams-macbook-pro
+	jboss.modules.dir = /Users/hesham/CIC/dev/CBE-KYC/MiddleWare-JavaSims/MOI/wildfly-10.1.0.Final/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = heshams-macbook-pro
+	jboss.qualified.host.name = heshams-macbook-pro.local
+	jboss.server.base.dir = /Users/hesham/CIC/dev/CBE-KYC/MiddleWare-JavaSims/MOI/wildfly-10.1.0.Final/standalone
+	jboss.server.config.dir = /Users/hesham/CIC/dev/CBE-KYC/MiddleWare-JavaSims/MOI/wildfly-10.1.0.Final/standalone/configuration
+	jboss.server.data.dir = /Users/hesham/CIC/dev/CBE-KYC/MiddleWare-JavaSims/MOI/wildfly-10.1.0.Final/standalone/data
+	jboss.server.deploy.dir = /Users/hesham/CIC/dev/CBE-KYC/MiddleWare-JavaSims/MOI/wildfly-10.1.0.Final/standalone/data/content
+	jboss.server.log.dir = /Users/hesham/CIC/dev/CBE-KYC/MiddleWare-JavaSims/MOI/wildfly-10.1.0.Final/standalone/log
+	jboss.server.name = heshams-macbook-pro
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /Users/hesham/CIC/dev/CBE-KYC/MiddleWare-JavaSims/MOI/wildfly-10.1.0.Final/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/Users/hesham/CIC/dev/CBE-KYC/MiddleWare-JavaSims/MOI/wildfly-10.1.0.Final/standalone/configuration/logging.properties
+	module.path = /Users/hesham/CIC/dev/CBE-KYC/MiddleWare-JavaSims/MOI/wildfly-10.1.0.Final/modules
+	org.jboss.boot.log.file = /Users/hesham/CIC/dev/CBE-KYC/MiddleWare-JavaSims/MOI/wildfly-10.1.0.Final/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = x86_64
+	os.name = Mac OS X
+	os.version = 10.13.6
+	path.separator = :
+	socksNonProxyHosts = local|*.local|169.254/16|*.169.254/16
+	sun.arch.data.model = 64
+	sun.boot.class.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/classes
+	sun.boot.library.path = /Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/jre/lib
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeBig
+	sun.java.command = /Users/hesham/CIC/dev/CBE-KYC/MiddleWare-JavaSims/MOI/wildfly-10.1.0.Final/jboss-modules.jar -mp /Users/hesham/CIC/dev/CBE-KYC/MiddleWare-JavaSims/MOI/wildfly-10.1.0.Final/modules org.jboss.as.standalone -Djboss.home.dir=/Users/hesham/CIC/dev/CBE-KYC/MiddleWare-JavaSims/MOI/wildfly-10.1.0.Final -Djboss.server.base.dir=/Users/hesham/CIC/dev/CBE-KYC/MiddleWare-JavaSims/MOI/wildfly-10.1.0.Final/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = US
+	user.country.format = EG
+	user.dir = /Users/hesham/CIC/dev/CBE-KYC/MiddleWare-JavaSims/MOI/wildfly-10.1.0.Final
+	user.home = /Users/hesham
+	user.language = en
+	user.name = hesham
+	user.timezone = Africa/Cairo
+2018-09-25 17:36:53,211 DEBUG [org.jboss.as.config] (MSC service thread 1-6) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -agentlib:jdwp=transport=dt_socket,address=8787,server=y,suspend=n -Dorg.jboss.boot.log.file=/Users/hesham/CIC/dev/CBE-KYC/MiddleWare-JavaSims/MOI/wildfly-10.1.0.Final/standalone/log/server.log -Dlogging.configuration=file:/Users/hesham/CIC/dev/CBE-KYC/MiddleWare-JavaSims/MOI/wildfly-10.1.0.Final/standalone/configuration/logging.properties 
+2018-09-25 17:36:55,508 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2018-09-25 17:36:55,528 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.4.0.Final
+2018-09-25 17:36:55,535 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.4.0.Final
+2018-09-25 17:36:55,563 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 54) WFLYTX0013: Node identifier property is set to the default value. Please make sure it is unique.
+2018-09-25 17:36:55,571 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 37) WFLYIO001: Worker 'default' has auto-configured to 16 core threads with 128 task threads based on your 8 available processors
+2018-09-25 17:36:55,576 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 38) WFLYCLINF0001: Activating Infinispan subsystem.
+2018-09-25 17:36:55,586 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 44) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2018-09-25 17:36:55,624 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 46) WFLYNAM0001: Activating Naming Subsystem
+2018-09-25 17:36:55,631 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 56) WFLYWS0002: Activating WebServices Extension
+2018-09-25 17:36:55,646 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 53) WFLYSEC0002: Activating Security Subsystem
+2018-09-25 17:36:55,653 INFO  [org.jboss.as.security] (MSC service thread 1-4) WFLYSEC0001: Current PicketBox version=4.9.6.Final
+2018-09-25 17:36:55,669 INFO  [org.jboss.as.connector] (MSC service thread 1-6) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.3.4.Final)
+2018-09-25 17:36:55,678 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+2018-09-25 17:36:55,683 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0003: Undertow 1.4.0.Final starting
+2018-09-25 17:36:55,689 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = h2
+2018-09-25 17:36:55,730 INFO  [org.jboss.remoting] (MSC service thread 1-7) JBoss Remoting version 4.0.21.Final
+2018-09-25 17:36:55,732 INFO  [org.jboss.as.naming] (MSC service thread 1-6) WFLYNAM0003: Starting Naming Service
+2018-09-25 17:36:55,732 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2018-09-25 17:36:55,734 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 33) WFLYJCA0005: Deploying non-JDBC-compliant driver class com.mysql.jdbc.Driver (version 5.1)
+2018-09-25 17:36:55,735 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = mysql
+2018-09-25 17:36:55,917 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 55) WFLYUT0014: Creating file handler for path '/Users/hesham/CIC/dev/CBE-KYC/MiddleWare-JavaSims/MOI/wildfly-10.1.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2018-09-25 17:36:55,944 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0012: Started server default-server.
+2018-09-25 17:36:55,946 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0018: Host default-host starting
+2018-09-25 17:36:55,992 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 32 (per class), which is derived from the number of CPUs on this host.
+2018-09-25 17:36:55,992 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 128 (per class), which is derived from thread worker pool sizing.
+2018-09-25 17:36:56,053 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8000
+2018-09-25 17:36:56,231 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/KYCSIMDS]
+2018-09-25 17:36:56,231 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2018-09-25 17:36:56,231 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Bound data source [java:jboss/datasources/MOIDS]
+2018-09-25 17:36:56,350 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-1) WFLYDM0111: Keystore /Users/hesham/CIC/dev/CBE-KYC/MiddleWare-JavaSims/MOI/wildfly-10.1.0.Final/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2018-09-25 17:36:56,361 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) WFLYDS0013: Started FileSystemDeploymentService for directory /Users/hesham/CIC/dev/CBE-KYC/MiddleWare-JavaSims/MOI/wildfly-10.1.0.Final/standalone/deployments
+2018-09-25 17:36:56,375 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "MOI-ear-1.0-SNAPSHOT.ear" (runtime-name: "MOI-ear-1.0-SNAPSHOT.ear")
+2018-09-25 17:36:56,375 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "KYC-ear-1.0-SNAPSHOT.ear" (runtime-name: "KYC-ear-1.0-SNAPSHOT.ear")
+2018-09-25 17:36:56,780 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-7) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.4.Final
+2018-09-25 17:36:56,817 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-09-25 17:36:56,817 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 60) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-09-25 17:36:56,817 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-09-25 17:36:56,819 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 58) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-09-25 17:36:56,819 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 61) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-09-25 17:36:56,820 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 60) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-09-25 17:36:56,924 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8843
+2018-09-25 17:36:57,215 INFO  [org.jboss.ws.common.management] (MSC service thread 1-5) JBWS022052: Starting JBossWS 5.1.5.Final (Apache CXF 3.1.6) 
+2018-09-25 17:36:57,805 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Class Path entry xml-apis.jar in /content/KYC-ear-1.0-SNAPSHOT.ear/serializer-2.7.1.jar  does not point to a valid jar for a Class-Path reference.
+2018-09-25 17:36:57,808 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Class Path entry activation.jar in /content/KYC-ear-1.0-SNAPSHOT.ear/mail-1.4.jar  does not point to a valid jar for a Class-Path reference.
+2018-09-25 17:36:57,810 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Class Path entry xercesImpl.jar in /content/KYC-ear-1.0-SNAPSHOT.ear/xalan-2.7.1.jar  does not point to a valid jar for a Class-Path reference.
+2018-09-25 17:36:57,811 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Class Path entry xml-apis.jar in /content/KYC-ear-1.0-SNAPSHOT.ear/xalan-2.7.1.jar  does not point to a valid jar for a Class-Path reference.
+2018-09-25 17:36:57,811 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Class Path entry serializer.jar in /content/KYC-ear-1.0-SNAPSHOT.ear/xalan-2.7.1.jar  does not point to a valid jar for a Class-Path reference.
+2018-09-25 17:36:57,815 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Class Path entry jaxb-api.jar in /content/KYC-ear-1.0-SNAPSHOT.ear/jaxb-impl-2.2.4.jar  does not point to a valid jar for a Class-Path reference.
+2018-09-25 17:36:57,815 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Class Path entry activation.jar in /content/KYC-ear-1.0-SNAPSHOT.ear/jaxb-impl-2.2.4.jar  does not point to a valid jar for a Class-Path reference.
+2018-09-25 17:36:57,815 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Class Path entry jsr173_1.0_api.jar in /content/KYC-ear-1.0-SNAPSHOT.ear/jaxb-impl-2.2.4.jar  does not point to a valid jar for a Class-Path reference.
+2018-09-25 17:36:57,816 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Class Path entry jaxb1-impl.jar in /content/KYC-ear-1.0-SNAPSHOT.ear/jaxb-impl-2.2.4.jar  does not point to a valid jar for a Class-Path reference.
+2018-09-25 17:36:57,824 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0207: Starting subdeployment (runtime-name: "KYC-web-1.0-SNAPSHOT.war")
+2018-09-25 17:36:57,824 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0207: Starting subdeployment (runtime-name: "KYC-war-1.0-SNAPSHOT.war")
+2018-09-25 17:36:58,662 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry jaxb-api.jar in /content/KYC-ear-1.0-SNAPSHOT.ear/KYC-war-1.0-SNAPSHOT.war/WEB-INF/lib/jaxb-impl-2.2.4.jar  does not point to a valid jar for a Class-Path reference.
+2018-09-25 17:36:58,663 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry activation.jar in /content/KYC-ear-1.0-SNAPSHOT.ear/KYC-war-1.0-SNAPSHOT.war/WEB-INF/lib/jaxb-impl-2.2.4.jar  does not point to a valid jar for a Class-Path reference.
+2018-09-25 17:36:58,663 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry jsr173_1.0_api.jar in /content/KYC-ear-1.0-SNAPSHOT.ear/KYC-war-1.0-SNAPSHOT.war/WEB-INF/lib/jaxb-impl-2.2.4.jar  does not point to a valid jar for a Class-Path reference.
+2018-09-25 17:36:58,664 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry jaxb1-impl.jar in /content/KYC-ear-1.0-SNAPSHOT.ear/KYC-war-1.0-SNAPSHOT.war/WEB-INF/lib/jaxb-impl-2.2.4.jar  does not point to a valid jar for a Class-Path reference.
+2018-09-25 17:36:58,665 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry xml-apis.jar in /content/KYC-ear-1.0-SNAPSHOT.ear/KYC-war-1.0-SNAPSHOT.war/WEB-INF/lib/serializer-2.7.1.jar  does not point to a valid jar for a Class-Path reference.
+2018-09-25 17:36:58,670 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry xercesImpl.jar in /content/KYC-ear-1.0-SNAPSHOT.ear/KYC-war-1.0-SNAPSHOT.war/WEB-INF/lib/xalan-2.7.1.jar  does not point to a valid jar for a Class-Path reference.
+2018-09-25 17:36:58,670 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry xml-apis.jar in /content/KYC-ear-1.0-SNAPSHOT.ear/KYC-war-1.0-SNAPSHOT.war/WEB-INF/lib/xalan-2.7.1.jar  does not point to a valid jar for a Class-Path reference.
+2018-09-25 17:36:58,670 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry serializer.jar in /content/KYC-ear-1.0-SNAPSHOT.ear/KYC-war-1.0-SNAPSHOT.war/WEB-INF/lib/xalan-2.7.1.jar  does not point to a valid jar for a Class-Path reference.
+2018-09-25 17:36:58,671 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry activation.jar in /content/KYC-ear-1.0-SNAPSHOT.ear/KYC-war-1.0-SNAPSHOT.war/WEB-INF/lib/mail-1.4.jar  does not point to a valid jar for a Class-Path reference.
+2018-09-25 17:36:59,067 INFO  [org.jboss.as.jpa] (MSC service thread 1-8) WFLYJPA0002: Read persistence.xml for kycsim
+2018-09-25 17:36:59,069 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry xml-apis.jar in /content/MOI-ear-1.0-SNAPSHOT.ear/serializer-2.7.1.jar  does not point to a valid jar for a Class-Path reference.
+2018-09-25 17:36:59,079 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry xercesImpl.jar in /content/MOI-ear-1.0-SNAPSHOT.ear/xalan-2.7.1.jar  does not point to a valid jar for a Class-Path reference.
+2018-09-25 17:36:59,079 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry xml-apis.jar in /content/MOI-ear-1.0-SNAPSHOT.ear/xalan-2.7.1.jar  does not point to a valid jar for a Class-Path reference.
+2018-09-25 17:36:59,079 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry serializer.jar in /content/MOI-ear-1.0-SNAPSHOT.ear/xalan-2.7.1.jar  does not point to a valid jar for a Class-Path reference.
+2018-09-25 17:36:59,084 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jaxb-api.jar in /content/MOI-ear-1.0-SNAPSHOT.ear/jaxb-impl-2.2.4.jar  does not point to a valid jar for a Class-Path reference.
+2018-09-25 17:36:59,084 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry activation.jar in /content/MOI-ear-1.0-SNAPSHOT.ear/jaxb-impl-2.2.4.jar  does not point to a valid jar for a Class-Path reference.
+2018-09-25 17:36:59,084 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jsr173_1.0_api.jar in /content/MOI-ear-1.0-SNAPSHOT.ear/jaxb-impl-2.2.4.jar  does not point to a valid jar for a Class-Path reference.
+2018-09-25 17:36:59,084 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry jaxb1-impl.jar in /content/MOI-ear-1.0-SNAPSHOT.ear/jaxb-impl-2.2.4.jar  does not point to a valid jar for a Class-Path reference.
+2018-09-25 17:36:59,090 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0059: Class Path entry activation.jar in /content/MOI-ear-1.0-SNAPSHOT.ear/mail-1.4.jar  does not point to a valid jar for a Class-Path reference.
+2018-09-25 17:36:59,093 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0207: Starting subdeployment (runtime-name: "MOI-web-1.0-SNAPSHOT.war")
+2018-09-25 17:36:59,094 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0207: Starting subdeployment (runtime-name: "MOI-war-1.0-SNAPSHOT.war")
+2018-09-25 17:36:59,197 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 60) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'KYC-ear-1.0-SNAPSHOT.ear/KYC-war-1.0-SNAPSHOT.war#kycsim'
+2018-09-25 17:36:59,203 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0003: Processing weld deployment KYC-ear-1.0-SNAPSHOT.ear
+2018-09-25 17:36:59,226 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 60) HHH000204: Processing PersistenceUnitInfo [
+	name: kycsim
+	...]
+2018-09-25 17:36:59,351 INFO  [org.hibernate.validator.internal.util.Version] (MSC service thread 1-2) HV000001: Hibernate Validator 5.2.4.Final
+2018-09-25 17:36:59,367 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 60) HHH000412: Hibernate Core {5.0.10.Final}
+2018-09-25 17:36:59,369 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 60) HHH000206: hibernate.properties not found
+2018-09-25 17:36:59,371 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 60) HHH000021: Bytecode provider name : javassist
+2018-09-25 17:36:59,425 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 60) HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-09-25 17:36:59,501 INFO  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0003: Processing weld deployment KYC-web-1.0-SNAPSHOT.war
+2018-09-25 17:36:59,523 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0003: Processing weld deployment KYC-war-1.0-SNAPSHOT.war
+2018-09-25 17:36:59,528 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'KYCDocumentStorageService' in deployment unit 'subdeployment "KYC-war-1.0-SNAPSHOT.war" of deployment "KYC-ear-1.0-SNAPSHOT.ear"' are as follows:
+
+	java:global/app/KYC-war-1.0-SNAPSHOT/KYCDocumentStorageService!com.ibm.cpt.kycsim.service.KYCDocumentStorageService
+	java:app/KYC-war-1.0-SNAPSHOT/KYCDocumentStorageService!com.ibm.cpt.kycsim.service.KYCDocumentStorageService
+	java:module/KYCDocumentStorageService!com.ibm.cpt.kycsim.service.KYCDocumentStorageService
+	java:global/app/KYC-war-1.0-SNAPSHOT/KYCDocumentStorageService
+	java:app/KYC-war-1.0-SNAPSHOT/KYCDocumentStorageService
+	java:module/KYCDocumentStorageService
+
+2018-09-25 17:36:59,529 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'KYCQueryService' in deployment unit 'subdeployment "KYC-war-1.0-SNAPSHOT.war" of deployment "KYC-ear-1.0-SNAPSHOT.ear"' are as follows:
+
+	java:global/app/KYC-war-1.0-SNAPSHOT/KYCQueryService!com.ibm.cpt.kycsim.service.KYCQueryService
+	java:app/KYC-war-1.0-SNAPSHOT/KYCQueryService!com.ibm.cpt.kycsim.service.KYCQueryService
+	java:module/KYCQueryService!com.ibm.cpt.kycsim.service.KYCQueryService
+	java:global/app/KYC-war-1.0-SNAPSHOT/KYCQueryService
+	java:app/KYC-war-1.0-SNAPSHOT/KYCQueryService
+	java:module/KYCQueryService
+
+2018-09-25 17:36:59,529 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'KYCStoreService' in deployment unit 'subdeployment "KYC-war-1.0-SNAPSHOT.war" of deployment "KYC-ear-1.0-SNAPSHOT.ear"' are as follows:
+
+	java:global/app/KYC-war-1.0-SNAPSHOT/KYCStoreService!com.ibm.cpt.kycsim.service.KYCStoreService
+	java:app/KYC-war-1.0-SNAPSHOT/KYCStoreService!com.ibm.cpt.kycsim.service.KYCStoreService
+	java:module/KYCStoreService!com.ibm.cpt.kycsim.service.KYCStoreService
+	java:global/app/KYC-war-1.0-SNAPSHOT/KYCStoreService
+	java:app/KYC-war-1.0-SNAPSHOT/KYCStoreService
+	java:module/KYCStoreService
+
+2018-09-25 17:36:59,530 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-6) WFLYEJB0473: JNDI bindings for session bean named 'KYCAuditService' in deployment unit 'subdeployment "KYC-war-1.0-SNAPSHOT.war" of deployment "KYC-ear-1.0-SNAPSHOT.ear"' are as follows:
+
+	java:global/app/KYC-war-1.0-SNAPSHOT/KYCAuditService!com.ibm.cpt.kycsim.service.KYCAuditService
+	java:app/KYC-war-1.0-SNAPSHOT/KYCAuditService!com.ibm.cpt.kycsim.service.KYCAuditService
+	java:module/KYCAuditService!com.ibm.cpt.kycsim.service.KYCAuditService
+	java:global/app/KYC-war-1.0-SNAPSHOT/KYCAuditService
+	java:app/KYC-war-1.0-SNAPSHOT/KYCAuditService
+	java:module/KYCAuditService
+
+2018-09-25 17:36:59,687 INFO  [org.jboss.weld.Version] (MSC service thread 1-8) WELD-000900: 2.3.5 (Final)
+2018-09-25 17:36:59,838 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 60) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-09-25 17:36:59,839 INFO  [org.infinispan.configuration.cache.EvictionConfigurationBuilder] (ServerService Thread Pool -- 60) ISPN000152: Passivation configured without an eviction policy being selected. Only manually evicted entities will be passivated.
+2018-09-25 17:36:59,978 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 62) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'KYC-ear-1.0-SNAPSHOT.ear/KYC-war-1.0-SNAPSHOT.war#kycsim'
+2018-09-25 17:37:00,331 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 60) WFLYCLINF0002: Started client-mappings cache from ejb container
+2018-09-25 17:37:00,535 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 62) HHH000400: Using dialect: com.ibm.cpt.kycsim.dialect.PatchedMySQL5InnoDBDialect
+2018-09-25 17:37:00,545 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry jaxb-api.jar in /content/MOI-ear-1.0-SNAPSHOT.ear/MOI-war-1.0-SNAPSHOT.war/WEB-INF/lib/jaxb-impl-2.2.4.jar  does not point to a valid jar for a Class-Path reference.
+2018-09-25 17:37:00,545 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry activation.jar in /content/MOI-ear-1.0-SNAPSHOT.ear/MOI-war-1.0-SNAPSHOT.war/WEB-INF/lib/jaxb-impl-2.2.4.jar  does not point to a valid jar for a Class-Path reference.
+2018-09-25 17:37:00,545 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry jsr173_1.0_api.jar in /content/MOI-ear-1.0-SNAPSHOT.ear/MOI-war-1.0-SNAPSHOT.war/WEB-INF/lib/jaxb-impl-2.2.4.jar  does not point to a valid jar for a Class-Path reference.
+2018-09-25 17:37:00,545 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry jaxb1-impl.jar in /content/MOI-ear-1.0-SNAPSHOT.ear/MOI-war-1.0-SNAPSHOT.war/WEB-INF/lib/jaxb-impl-2.2.4.jar  does not point to a valid jar for a Class-Path reference.
+2018-09-25 17:37:00,547 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry xml-apis.jar in /content/MOI-ear-1.0-SNAPSHOT.ear/MOI-war-1.0-SNAPSHOT.war/WEB-INF/lib/serializer-2.7.1.jar  does not point to a valid jar for a Class-Path reference.
+2018-09-25 17:37:00,570 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry xercesImpl.jar in /content/MOI-ear-1.0-SNAPSHOT.ear/MOI-war-1.0-SNAPSHOT.war/WEB-INF/lib/xalan-2.7.1.jar  does not point to a valid jar for a Class-Path reference.
+2018-09-25 17:37:00,570 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry xml-apis.jar in /content/MOI-ear-1.0-SNAPSHOT.ear/MOI-war-1.0-SNAPSHOT.war/WEB-INF/lib/xalan-2.7.1.jar  does not point to a valid jar for a Class-Path reference.
+2018-09-25 17:37:00,570 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry serializer.jar in /content/MOI-ear-1.0-SNAPSHOT.ear/MOI-war-1.0-SNAPSHOT.war/WEB-INF/lib/xalan-2.7.1.jar  does not point to a valid jar for a Class-Path reference.
+2018-09-25 17:37:00,571 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0059: Class Path entry activation.jar in /content/MOI-ear-1.0-SNAPSHOT.ear/MOI-war-1.0-SNAPSHOT.war/WEB-INF/lib/mail-1.4.jar  does not point to a valid jar for a Class-Path reference.
+2018-09-25 17:37:00,602 INFO  [org.jboss.as.jpa] (MSC service thread 1-1) WFLYJPA0002: Read persistence.xml for moi
+2018-09-25 17:37:00,634 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 62) Envers integration enabled? : true
+2018-09-25 17:37:00,677 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 60) WFLYJPA0010: Starting Persistence Unit (phase 1 of 2) Service 'MOI-ear-1.0-SNAPSHOT.ear/MOI-war-1.0-SNAPSHOT.war#moi'
+2018-09-25 17:37:00,677 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment MOI-ear-1.0-SNAPSHOT.ear
+2018-09-25 17:37:00,677 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 60) HHH000204: Processing PersistenceUnitInfo [
+	name: moi
+	...]
+2018-09-25 17:37:00,690 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0003: Processing weld deployment MOI-war-1.0-SNAPSHOT.war
+2018-09-25 17:37:00,691 INFO  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0003: Processing weld deployment MOI-web-1.0-SNAPSHOT.war
+2018-09-25 17:37:00,693 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'MOIStoreService' in deployment unit 'subdeployment "MOI-war-1.0-SNAPSHOT.war" of deployment "MOI-ear-1.0-SNAPSHOT.ear"' are as follows:
+
+	java:global/moisim/MOI-war-1.0-SNAPSHOT/MOIStoreService!com.ibm.cpt.moisim.service.MOIStoreService
+	java:app/MOI-war-1.0-SNAPSHOT/MOIStoreService!com.ibm.cpt.moisim.service.MOIStoreService
+	java:module/MOIStoreService!com.ibm.cpt.moisim.service.MOIStoreService
+	java:global/moisim/MOI-war-1.0-SNAPSHOT/MOIStoreService
+	java:app/MOI-war-1.0-SNAPSHOT/MOIStoreService
+	java:module/MOIStoreService
+
+2018-09-25 17:37:00,693 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'MOIQueryService' in deployment unit 'subdeployment "MOI-war-1.0-SNAPSHOT.war" of deployment "MOI-ear-1.0-SNAPSHOT.ear"' are as follows:
+
+	java:global/moisim/MOI-war-1.0-SNAPSHOT/MOIQueryService!com.ibm.cpt.moisim.service.MOIQueryService
+	java:app/MOI-war-1.0-SNAPSHOT/MOIQueryService!com.ibm.cpt.moisim.service.MOIQueryService
+	java:module/MOIQueryService!com.ibm.cpt.moisim.service.MOIQueryService
+	java:global/moisim/MOI-war-1.0-SNAPSHOT/MOIQueryService
+	java:app/MOI-war-1.0-SNAPSHOT/MOIQueryService
+	java:module/MOIQueryService
+
+2018-09-25 17:37:00,693 INFO  [org.jboss.as.ejb3.deployment] (MSC service thread 1-4) WFLYEJB0473: JNDI bindings for session bean named 'MOIAuditService' in deployment unit 'subdeployment "MOI-war-1.0-SNAPSHOT.war" of deployment "MOI-ear-1.0-SNAPSHOT.ear"' are as follows:
+
+	java:global/moisim/MOI-war-1.0-SNAPSHOT/MOIAuditService!com.ibm.cpt.moisim.service.MOIAuditService
+	java:app/MOI-war-1.0-SNAPSHOT/MOIAuditService!com.ibm.cpt.moisim.service.MOIAuditService
+	java:module/MOIAuditService!com.ibm.cpt.moisim.service.MOIAuditService
+	java:global/moisim/MOI-war-1.0-SNAPSHOT/MOIAuditService
+	java:app/MOI-war-1.0-SNAPSHOT/MOIAuditService
+	java:module/MOIAuditService
+
+2018-09-25 17:37:00,768 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 60) WFLYJPA0010: Starting Persistence Unit (phase 2 of 2) Service 'MOI-ear-1.0-SNAPSHOT.ear/MOI-war-1.0-SNAPSHOT.war#moi'
+2018-09-25 17:37:00,780 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 60) HHH000400: Using dialect: com.ibm.cpt.moisim.dialect.PatchedMySQL5InnoDBDialect
+2018-09-25 17:37:00,795 INFO  [org.hibernate.envers.boot.internal.EnversServiceImpl] (ServerService Thread Pool -- 60) Envers integration enabled? : true
+2018-09-25 17:37:01,234 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 60) HHH000227: Running hbm2ddl schema export
+2018-09-25 17:37:01,234 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 62) HHH000227: Running hbm2ddl schema export
+2018-09-25 17:37:01,244 INFO  [stdout] (ServerService Thread Pool -- 60) Hibernate: drop table if exists civilian
+2018-09-25 17:37:01,244 INFO  [stdout] (ServerService Thread Pool -- 62) Hibernate: alter table customerdocument drop foreign key FK6vr1vvan3uf9co2dmt0h73i1i
+2018-09-25 17:37:01,276 INFO  [stdout] (ServerService Thread Pool -- 62) Hibernate: drop table if exists customer
+2018-09-25 17:37:01,277 INFO  [stdout] (ServerService Thread Pool -- 60) Hibernate: drop table if exists hibernate_sequence
+2018-09-25 17:37:01,284 INFO  [stdout] (ServerService Thread Pool -- 60) Hibernate: create table civilian (pk decimal(19,2) not null, LastName varchar(255), city varchar(255), country varchar(255), fatherName varchar(255), firstName varchar(255), grandFatherNameFather varchar(255), grandFatherNameMother varchar(255), grandMotherNameFather varchar(255), grandMotherNameMother varchar(255), motherName varchar(255), nationalId varchar(255), phoneNumber varchar(255), streetName varchar(255), primary key (pk)) ENGINE=InnoDB
+2018-09-25 17:37:01,285 INFO  [stdout] (ServerService Thread Pool -- 62) Hibernate: drop table if exists customerdocument
+2018-09-25 17:37:01,292 INFO  [stdout] (ServerService Thread Pool -- 62) Hibernate: drop table if exists hibernate_sequence
+2018-09-25 17:37:01,296 INFO  [stdout] (ServerService Thread Pool -- 60) Hibernate: create table hibernate_sequence (next_val bigint) ENGINE=InnoDB
+2018-09-25 17:37:01,298 INFO  [stdout] (ServerService Thread Pool -- 62) Hibernate: create table customer (pk decimal(19,2) not null, LastName varchar(255), address varchar(255), birthDate varchar(255), firstName varchar(255), nationalId varchar(255), occupation varchar(255), personalEmail varchar(255), personalPhone varchar(255), primary key (pk)) ENGINE=InnoDB
+2018-09-25 17:37:01,305 INFO  [stdout] (ServerService Thread Pool -- 60) Hibernate: insert into hibernate_sequence values ( 1 )
+2018-09-25 17:37:01,306 INFO  [stdout] (ServerService Thread Pool -- 62) Hibernate: create table customerdocument (pk decimal(19,2) not null, docId varchar(255), docPath varchar(255), docType varchar(255), expiryDate varchar(255), customerfk decimal(19,2) not null, primary key (pk)) ENGINE=InnoDB
+2018-09-25 17:37:01,308 INFO  [stdout] (ServerService Thread Pool -- 60) Hibernate: alter table civilian add constraint UK_jkmtv3gtch3g8bm4xh9c4rhml unique (nationalId)
+2018-09-25 17:37:01,316 INFO  [stdout] (ServerService Thread Pool -- 62) Hibernate: create table hibernate_sequence (next_val bigint) ENGINE=InnoDB
+2018-09-25 17:37:01,321 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 60) HHH000230: Schema export complete
+2018-09-25 17:37:01,325 INFO  [stdout] (ServerService Thread Pool -- 62) Hibernate: insert into hibernate_sequence values ( 1 )
+2018-09-25 17:37:01,328 INFO  [stdout] (ServerService Thread Pool -- 62) Hibernate: insert into hibernate_sequence values ( 1 )
+2018-09-25 17:37:01,330 INFO  [stdout] (ServerService Thread Pool -- 62) Hibernate: alter table customer add constraint UK_dwa276um4ko2xtxv1gy0oufh unique (nationalId)
+2018-09-25 17:37:01,331 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 60) HHH000397: Using ASTQueryTranslatorFactory
+2018-09-25 17:37:01,340 INFO  [stdout] (ServerService Thread Pool -- 62) Hibernate: alter table customerdocument add constraint FK6vr1vvan3uf9co2dmt0h73i1i foreign key (customerfk) references customer (pk)
+2018-09-25 17:37:01,361 INFO  [org.hibernate.tool.hbm2ddl.SchemaExport] (ServerService Thread Pool -- 62) HHH000230: Schema export complete
+2018-09-25 17:37:01,364 INFO  [org.hibernate.hql.internal.QueryTranslatorFactoryInitiator] (ServerService Thread Pool -- 62) HHH000397: Using ASTQueryTranslatorFactory
+2018-09-25 17:37:01,773 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 8) WELD-001125: Illegal bean type javax.ws.rs.ext.MessageBodyReader<java.util.Map<?, ?>> ignored on [EnhancedAnnotatedTypeImpl] public @Provider @Consumes @ApplicationScoped class org.jboss.resteasy.plugins.providers.multipart.MapMultipartFormDataReader
+2018-09-25 17:37:01,773 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 6) WELD-001125: Illegal bean type javax.ws.rs.ext.MessageBodyReader<java.util.List<?>> ignored on [EnhancedAnnotatedTypeImpl] public @Provider @Consumes @ApplicationScoped class org.jboss.resteasy.plugins.providers.multipart.ListMultipartReader
+2018-09-25 17:37:02,409 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 1) WELD-001125: Illegal bean type javax.ws.rs.ext.MessageBodyReader<java.util.Map<?, ?>> ignored on [EnhancedAnnotatedTypeImpl] public @Provider @Consumes @ApplicationScoped class org.jboss.resteasy.plugins.providers.multipart.MapMultipartFormDataReader
+2018-09-25 17:37:02,409 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 7) WELD-001125: Illegal bean type javax.ws.rs.ext.MessageBodyReader<java.util.List<?>> ignored on [EnhancedAnnotatedTypeImpl] public @Provider @Consumes @ApplicationScoped class org.jboss.resteasy.plugins.providers.multipart.ListMultipartReader
+2018-09-25 17:37:02,438 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 4) WELD-001125: Illegal bean type org.jboss.resteasy.plugins.providers.jaxb.AbstractJAXBProvider<javax.xml.bind.JAXBElement<?>> ignored on [EnhancedAnnotatedTypeImpl] public @Provider @Consumes @Produces @ApplicationScoped class org.jboss.resteasy.plugins.providers.jaxb.JAXBElementProvider
+2018-09-25 17:37:02,439 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 4) WELD-001125: Illegal bean type class org.jboss.resteasy.plugins.providers.AbstractEntityProvider<javax.xml.bind.JAXBElement<?>> ignored on [EnhancedAnnotatedTypeImpl] public @Provider @Consumes @Produces @ApplicationScoped class org.jboss.resteasy.plugins.providers.jaxb.JAXBElementProvider
+2018-09-25 17:37:02,439 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 4) WELD-001125: Illegal bean type interface javax.ws.rs.ext.MessageBodyReader<javax.xml.bind.JAXBElement<?>> ignored on [EnhancedAnnotatedTypeImpl] public @Provider @Consumes @Produces @ApplicationScoped class org.jboss.resteasy.plugins.providers.jaxb.JAXBElementProvider
+2018-09-25 17:37:02,439 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 4) WELD-001125: Illegal bean type interface javax.ws.rs.ext.MessageBodyWriter<javax.xml.bind.JAXBElement<?>> ignored on [EnhancedAnnotatedTypeImpl] public @Provider @Consumes @Produces @ApplicationScoped class org.jboss.resteasy.plugins.providers.jaxb.JAXBElementProvider
+2018-09-25 17:37:02,443 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 9) WELD-001125: Illegal bean type org.jboss.resteasy.plugins.providers.jaxb.AbstractJAXBProvider<javax.xml.bind.JAXBElement<?>> ignored on [EnhancedAnnotatedTypeImpl] public @Provider @Consumes @Produces @ApplicationScoped class org.jboss.resteasy.plugins.providers.jaxb.JAXBElementProvider
+2018-09-25 17:37:02,443 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 9) WELD-001125: Illegal bean type class org.jboss.resteasy.plugins.providers.AbstractEntityProvider<javax.xml.bind.JAXBElement<?>> ignored on [EnhancedAnnotatedTypeImpl] public @Provider @Consumes @Produces @ApplicationScoped class org.jboss.resteasy.plugins.providers.jaxb.JAXBElementProvider
+2018-09-25 17:37:02,443 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 9) WELD-001125: Illegal bean type interface javax.ws.rs.ext.MessageBodyReader<javax.xml.bind.JAXBElement<?>> ignored on [EnhancedAnnotatedTypeImpl] public @Provider @Consumes @Produces @ApplicationScoped class org.jboss.resteasy.plugins.providers.jaxb.JAXBElementProvider
+2018-09-25 17:37:02,443 INFO  [org.jboss.weld.Bootstrap] (Weld Thread Pool -- 9) WELD-001125: Illegal bean type interface javax.ws.rs.ext.MessageBodyWriter<javax.xml.bind.JAXBElement<?>> ignored on [EnhancedAnnotatedTypeImpl] public @Provider @Consumes @Produces @ApplicationScoped class org.jboss.resteasy.plugins.providers.jaxb.JAXBElementProvider
+2018-09-25 17:37:02,928 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 63) WFLYUT0021: Registered web context: /moisim/moi-web
+2018-09-25 17:37:02,928 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 66) WFLYUT0021: Registered web context: /moisim/moi
+2018-09-25 17:37:02,928 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 64) WFLYUT0021: Registered web context: /app/kyc-web
+2018-09-25 17:37:02,928 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 60) WFLYUT0021: Registered web context: /app/kyc
+2018-09-25 17:37:02,952 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "KYC-ear-1.0-SNAPSHOT.ear" (runtime-name : "KYC-ear-1.0-SNAPSHOT.ear")
+2018-09-25 17:37:02,952 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 34) WFLYSRV0010: Deployed "MOI-ear-1.0-SNAPSHOT.ear" (runtime-name : "MOI-ear-1.0-SNAPSHOT.ear")
+2018-09-25 17:37:03,065 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2018-09-25 17:37:03,066 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2018-09-25 17:37:03,066 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) started in 11301ms - Started 870 of 1136 services (460 services are lazy, passive or on-demand)
+2018-09-25 23:44:23,295 WARN  [org.jboss.as.weld] (default task-1) WFLYWELD0052: Using deployment classloader to load proxy classes for module org.jboss.resteasy.resteasy-multipart-provider:main. Package-private access will not work. To fix this the module should declare dependencies on [org.jboss.weld.core, org.jboss.weld.spi]
+2018-09-25 23:44:23,507 WARN  [org.jboss.as.weld] (default task-1) WFLYWELD0052: Using deployment classloader to load proxy classes for module org.jboss.resteasy.resteasy-jaxb-provider:main. Package-private access will not work. To fix this the module should declare dependencies on [org.jboss.weld.core, org.jboss.weld.spi]
+2018-09-25 23:44:23,725 WARN  [org.jboss.resteasy.resteasy_jaxrs.i18n] (default task-1) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.multipart.MultipartFormAnnotationWriter is already registered.  2nd registration is being ignored.
+2018-09-25 23:44:23,726 WARN  [org.jboss.resteasy.resteasy_jaxrs.i18n] (default task-1) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.multipart.XopWithMultipartRelatedReader is already registered.  2nd registration is being ignored.
+2018-09-25 23:44:23,726 WARN  [org.jboss.resteasy.resteasy_jaxrs.i18n] (default task-1) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.multipart.ListMultipartWriter is already registered.  2nd registration is being ignored.
+2018-09-25 23:44:23,726 WARN  [org.jboss.resteasy.resteasy_jaxrs.i18n] (default task-1) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.multipart.XopWithMultipartRelatedWriter is already registered.  2nd registration is being ignored.
+2018-09-25 23:44:23,726 WARN  [org.jboss.resteasy.resteasy_jaxrs.i18n] (default task-1) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.multipart.MimeMultipartProvider is already registered.  2nd registration is being ignored.
+2018-09-25 23:44:23,726 WARN  [org.jboss.resteasy.resteasy_jaxrs.i18n] (default task-1) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.multipart.MultipartReader is already registered.  2nd registration is being ignored.
+2018-09-25 23:44:23,727 WARN  [org.jboss.resteasy.resteasy_jaxrs.i18n] (default task-1) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.multipart.MultipartFormAnnotationReader is already registered.  2nd registration is being ignored.
+2018-09-25 23:44:23,727 WARN  [org.jboss.resteasy.resteasy_jaxrs.i18n] (default task-1) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.multipart.MultipartFormDataReader is already registered.  2nd registration is being ignored.
+2018-09-25 23:44:23,727 WARN  [org.jboss.resteasy.resteasy_jaxrs.i18n] (default task-1) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.multipart.MapMultipartFormDataReader is already registered.  2nd registration is being ignored.
+2018-09-25 23:44:23,727 WARN  [org.jboss.resteasy.resteasy_jaxrs.i18n] (default task-1) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.multipart.MultipartRelatedWriter is already registered.  2nd registration is being ignored.
+2018-09-25 23:44:23,727 WARN  [org.jboss.resteasy.resteasy_jaxrs.i18n] (default task-1) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.multipart.MapMultipartFormDataWriter is already registered.  2nd registration is being ignored.
+2018-09-25 23:44:23,727 WARN  [org.jboss.resteasy.resteasy_jaxrs.i18n] (default task-1) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.multipart.MultipartWriter is already registered.  2nd registration is being ignored.
+2018-09-25 23:44:23,727 WARN  [org.jboss.resteasy.resteasy_jaxrs.i18n] (default task-1) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.multipart.MultipartFormDataWriter is already registered.  2nd registration is being ignored.
+2018-09-25 23:44:23,728 WARN  [org.jboss.resteasy.resteasy_jaxrs.i18n] (default task-1) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.multipart.MultipartRelatedReader is already registered.  2nd registration is being ignored.
+2018-09-25 23:44:23,728 WARN  [org.jboss.resteasy.resteasy_jaxrs.i18n] (default task-1) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.multipart.ListMultipartReader is already registered.  2nd registration is being ignored.
+2018-09-25 23:44:23,728 WARN  [org.jboss.resteasy.resteasy_jaxrs.i18n] (default task-1) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.jaxb.XmlJAXBContextFinder is already registered.  2nd registration is being ignored.
+2018-09-25 23:44:23,728 WARN  [org.jboss.resteasy.resteasy_jaxrs.i18n] (default task-1) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.jaxb.CollectionProvider is already registered.  2nd registration is being ignored.
+2018-09-25 23:44:23,728 WARN  [org.jboss.resteasy.resteasy_jaxrs.i18n] (default task-1) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.jaxb.JAXBXmlRootElementProvider is already registered.  2nd registration is being ignored.
+2018-09-25 23:44:23,728 WARN  [org.jboss.resteasy.resteasy_jaxrs.i18n] (default task-1) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.jaxb.JAXBXmlSeeAlsoProvider is already registered.  2nd registration is being ignored.
+2018-09-25 23:44:23,728 WARN  [org.jboss.resteasy.resteasy_jaxrs.i18n] (default task-1) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.jaxb.MapProvider is already registered.  2nd registration is being ignored.
+2018-09-25 23:44:23,728 WARN  [org.jboss.resteasy.resteasy_jaxrs.i18n] (default task-1) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.jaxb.JAXBXmlTypeProvider is already registered.  2nd registration is being ignored.
+2018-09-25 23:44:23,728 WARN  [org.jboss.resteasy.resteasy_jaxrs.i18n] (default task-1) RESTEASY002155: Provider class org.jboss.resteasy.plugins.providers.jaxb.JAXBElementProvider is already registered.  2nd registration is being ignored.
+2018-09-25 23:44:23,871 INFO  [com.ibm.cpt.moisim.service.MOIAuditService] (default task-1) AUDIT[Tue Sep 25 23:44:23 EET 2018] - Rest Endpoint called Endpoint Method GET, Path getRandomCivilianAttribute/{name}
+2018-09-25 23:44:23,998 INFO  [stdout] (default task-1) Hibernate: select civilian0_.pk as pk1_0_, civilian0_.LastName as LastName2_0_, civilian0_.city as city3_0_, civilian0_.country as country4_0_, civilian0_.fatherName as fatherNa5_0_, civilian0_.firstName as firstNam6_0_, civilian0_.grandFatherNameFather as grandFat7_0_, civilian0_.grandFatherNameMother as grandFat8_0_, civilian0_.grandMotherNameFather as grandMot9_0_, civilian0_.grandMotherNameMother as grandMo10_0_, civilian0_.motherName as motherN11_0_, civilian0_.nationalId as nationa12_0_, civilian0_.phoneNumber as phoneNu13_0_, civilian0_.streetName as streetN14_0_ from civilian civilian0_ where civilian0_.nationalId=?
+2018-09-25 23:45:01,733 INFO  [com.ibm.cpt.moisim.rest.MOIClientAccountsRest] (default task-2) MOIStore-Service: creating Civilian - Civilian{pk=null, firstName='هشام', LastName='البدوي', phoneNumber='01225556926', grandFatherNameFather='عبد الرءوف', grandFatherNameMother='محمد', grandMotherNameFather='حكمت', grandMotherNameMother='امثال', nationalId='28710031200094', motherName='ايناس', country='مصر', city='القاهرة', streetName='العنوان', fatherName='سعد الدين'}
+2018-09-25 23:45:01,734 INFO  [com.ibm.cpt.moisim.service.MOIAuditService] (default task-2) AUDIT[Tue Sep 25 23:45:01 EET 2018] - Rest Endpoint called Endpoint Method POST, Path createCivilian
+2018-09-25 23:45:01,736 INFO  [com.ibm.cpt.moisim.service.MOIStoreService] (default task-2) MOIStore-Service: creating Civilian - Civilian{pk=null, firstName='هشام', LastName='البدوي', phoneNumber='01225556926', grandFatherNameFather='عبد الرءوف', grandFatherNameMother='محمد', grandMotherNameFather='حكمت', grandMotherNameMother='امثال', nationalId='28710031200094', motherName='ايناس', country='مصر', city='القاهرة', streetName='العنوان', fatherName='سعد الدين'}
+2018-09-25 23:45:01,749 INFO  [stdout] (default task-2) Hibernate: select next_val as id_val from hibernate_sequence for update
+2018-09-25 23:45:01,769 INFO  [stdout] (default task-2) Hibernate: update hibernate_sequence set next_val= ? where next_val=?
+2018-09-25 23:45:01,874 INFO  [com.ibm.cpt.moisim.service.MOIAuditService] (default task-2) AUDIT[Tue Sep 25 23:45:01 EET 2018] - Database Store Succeeded Method name createAddress
+2018-09-25 23:45:01,896 INFO  [stdout] (default task-2) Hibernate: insert into civilian (LastName, city, country, fatherName, firstName, grandFatherNameFather, grandFatherNameMother, grandMotherNameFather, grandMotherNameMother, motherName, nationalId, phoneNumber, streetName, pk) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2018-09-25 23:46:27,318 INFO  [com.ibm.cpt.moisim.service.MOIAuditService] (default task-3) AUDIT[Tue Sep 25 23:46:27 EET 2018] - Rest Endpoint called Endpoint Method GET, Path getRandomCivilianAttribute/{name}
+2018-09-25 23:46:27,319 INFO  [stdout] (default task-3) Hibernate: select civilian0_.pk as pk1_0_, civilian0_.LastName as LastName2_0_, civilian0_.city as city3_0_, civilian0_.country as country4_0_, civilian0_.fatherName as fatherNa5_0_, civilian0_.firstName as firstNam6_0_, civilian0_.grandFatherNameFather as grandFat7_0_, civilian0_.grandFatherNameMother as grandFat8_0_, civilian0_.grandMotherNameFather as grandMot9_0_, civilian0_.grandMotherNameMother as grandMo10_0_, civilian0_.motherName as motherN11_0_, civilian0_.nationalId as nationa12_0_, civilian0_.phoneNumber as phoneNu13_0_, civilian0_.streetName as streetN14_0_ from civilian civilian0_ where civilian0_.nationalId=?

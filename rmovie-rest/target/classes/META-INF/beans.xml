@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ /*
+  ~  *     Copyright    : Copyright notice - Licensed Materials - Property of IBM
+  ~  *     Restricted Materials of IBM. Reproduction, modification and
+  ~  *     redistribution are permitted under the terms of the associated license.
+  ~  *     © Copyright IBM Corporation [2018]. All Rights Reserved.
+  ~  *     U.S. Government Users Restricted Rights: Use, duplication or disclosure
+  ~  *     restricted by GSA ADP Schedule Contract with IBM Corp
+  ~  *
+  ~  *     Author: Hesham.AbdelRaouf.Elbadawi@IBM.com
+  ~  */
+  -->
+
+<beans xmlns="http://java.sun.com/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/beans_1_0.xsd">
+</beans>

@@ -1,0 +1,4 @@
+com\ibm\rmovie\entity\Person.class
+com\ibm\rmovie\entity\Genre.class
+com\ibm\rmovie\dialect\PatchedMySQL5InnoDBDialect.class
+com\ibm\rmovie\entity\Movie.class

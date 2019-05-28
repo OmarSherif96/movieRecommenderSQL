@@ -1,0 +1,98 @@
+2019-02-06 17:18:42,753 INFO  [org.jboss.modules] (main) JBoss Modules version 1.5.2.Final
+2019-02-06 17:18:51,400 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.6.Final
+2019-02-06 17:18:51,469 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) starting
+2019-02-06 17:18:51,472 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\OmarTolba\Desktop\IdeaProjects\rmovieParentNoSQL\wildfly-10.1.0.Final\jboss-modules.jar
+	java.class.version = 55.0
+	java.home = C:\Users\OmarTolba\Downloads\jdk-11.0.2_windows-x64_bin\jdk-11.0.2
+	java.io.tmpdir = C:\Users\OMARTO~1\AppData\Local\Temp\
+	java.library.path = C:\Users\OmarTolba\Downloads\jdk-11.0.2_windows-x64_bin\jdk-11.0.2\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;C:\Program Files\apache-maven-3.6.0\bin;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Users\OmarTolba\AppData\Local\Microsoft\WindowsApps;C:\Users\OmarTolba\AppData\Roaming\npm;C:\Users\OmarTolba\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.3\bin;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 11.0.2+9-LTS
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 11
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.java.com/bugreport/
+	java.vendor.version = 18.9
+	java.version = 11.0.2
+	java.version.date = 2019-01-15
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 11
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 11.0.2+9-LTS
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = C:\Users\OmarTolba\Desktop\IdeaProjects\rmovieParentNoSQL\wildfly-10.1.0.Final
+	jboss.host.name = desktop-ok67th5
+	jboss.modules.dir = C:\Users\OmarTolba\Desktop\IdeaProjects\rmovieParentNoSQL\wildfly-10.1.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-ok67th5
+	jboss.qualified.host.name = desktop-ok67th5
+	jboss.server.base.dir = C:\Users\OmarTolba\Desktop\IdeaProjects\rmovieParentNoSQL\wildfly-10.1.0.Final\standalone
+	jboss.server.config.dir = C:\Users\OmarTolba\Desktop\IdeaProjects\rmovieParentNoSQL\wildfly-10.1.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\OmarTolba\Desktop\IdeaProjects\rmovieParentNoSQL\wildfly-10.1.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\OmarTolba\Desktop\IdeaProjects\rmovieParentNoSQL\wildfly-10.1.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\OmarTolba\Desktop\IdeaProjects\rmovieParentNoSQL\wildfly-10.1.0.Final\standalone\log
+	jboss.server.name = desktop-ok67th5
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\OmarTolba\Desktop\IdeaProjects\rmovieParentNoSQL\wildfly-10.1.0.Final\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\Users\OmarTolba\Desktop\IdeaProjects\rmovieParentNoSQL\wildfly-10.1.0.Final\standalone\configuration/logging.properties
+	module.path = C:\Users\OmarTolba\Desktop\IdeaProjects\rmovieParentNoSQL\wildfly-10.1.0.Final\modules
+	org.jboss.boot.log.file = C:\Users\OmarTolba\Desktop\IdeaProjects\rmovieParentNoSQL\wildfly-10.1.0.Final\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Users\OmarTolba\Downloads\jdk-11.0.2_windows-x64_bin\jdk-11.0.2\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\Users\OmarTolba\Desktop\IdeaProjects\rmovieParentNoSQL\wildfly-10.1.0.Final\jboss-modules.jar -mp C:\Users\OmarTolba\Desktop\IdeaProjects\rmovieParentNoSQL\wildfly-10.1.0.Final\modules org.jboss.as.standalone -Djboss.home.dir=C:\Users\OmarTolba\Desktop\IdeaProjects\rmovieParentNoSQL\wildfly-10.1.0.Final
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp437
+	sun.stdout.encoding = cp437
+	user.country = US
+	user.dir = C:\Users\OmarTolba\Desktop\IdeaProjects\rmovieParentNoSQL\wildfly-10.1.0.Final\bin
+	user.home = C:\Users\OmarTolba
+	user.language = en
+	user.name = OmarTolba
+	user.script = 
+	user.timezone = Africa/Cairo
+	user.variant = 
+2019-02-06 17:18:51,486 DEBUG [org.jboss.as.config] (MSC service thread 1-7) VM Arguments: -Dprogram.name=standalone.bat -Xms64M -Xmx512M -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.boot.log.file=C:\Users\OmarTolba\Desktop\IdeaProjects\rmovieParentNoSQL\wildfly-10.1.0.Final\standalone\log\server.log -Dlogging.configuration=file:C:\Users\OmarTolba\Desktop\IdeaProjects\rmovieParentNoSQL\wildfly-10.1.0.Final\standalone\configuration/logging.properties 
+2019-02-06 17:19:34,019 INFO  [org.jboss.as.repository] (ServerService Thread Pool -- 28) WFLYDR0001: Content added at location C:\Users\OmarTolba\Desktop\IdeaProjects\rmovieParentNoSQL\wildfly-10.1.0.Final\standalone\data\content\a2\7519e61a1c6a75ba483cd4defd224c4d2c51e5\content
+2019-02-06 17:19:34,046 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2019-02-06 17:19:34,069 INFO  [org.xnio] (MSC service thread 1-2) XNIO version 3.4.0.Final
+2019-02-06 17:19:34,075 INFO  [org.xnio.nio] (MSC service thread 1-2) XNIO NIO Implementation Version 3.4.0.Final

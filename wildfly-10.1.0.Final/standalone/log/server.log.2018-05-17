@@ -1,0 +1,18 @@
+2018-05-17 12:03:41,238 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: Server shutdown has been requested via an OS signal
+2018-05-17 12:03:41,248 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 124) WFLYUT0022: Unregistered web context: /flexcube
+2018-05-17 12:03:41,267 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0019: Host default-host stopping
+2018-05-17 12:03:41,270 INFO  [org.jboss.as.webservices] (MSC service thread 1-4) WFLYWS0004: Stopping service jboss.ws.endpoint."flexcubesim-war-skinny-1.0-SNAPSHOT.war"."com.ibm.cpt.flexcubesim.rest.FlexClientAccountsWS"
+2018-05-17 12:03:41,282 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0010: Unbound data source [java:jboss/datasources/ExampleDS]
+2018-05-17 12:03:41,282 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 131) WFLYJPA0011: Stopping Persistence Unit (phase 2 of 2) Service 'flexcubesim-war-skinny-1.0-SNAPSHOT.war#flexcube'
+2018-05-17 12:03:41,286 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 131) WFLYJPA0011: Stopping Persistence Unit (phase 1 of 2) Service 'flexcubesim-war-skinny-1.0-SNAPSHOT.war#flexcube'
+2018-05-17 12:03:41,286 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = h2
+2018-05-17 12:03:41,287 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Unbound data source [java:jboss/datasources/FlexDS]
+2018-05-17 12:03:41,291 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = mysql
+2018-05-17 12:03:41,297 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 128) WFLYCLINF0003: Stopped client-mappings cache from ejb container
+2018-05-17 12:03:41,310 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0008: Undertow HTTPS listener https suspending
+2018-05-17 12:03:41,310 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0008: Undertow HTTP listener default suspending
+2018-05-17 12:03:41,312 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0007: Undertow HTTPS listener https stopped, was bound to 127.0.0.1:8443
+2018-05-17 12:03:41,313 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0007: Undertow HTTP listener default stopped, was bound to 127.0.0.1:8080
+2018-05-17 12:03:41,316 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0004: Undertow 1.4.0.Final stopping
+2018-05-17 12:03:41,343 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0028: Stopped deployment flexcubesim-war-skinny-1.0-SNAPSHOT.war (runtime-name: flexcubesim-war-skinny-1.0-SNAPSHOT.war) in 93ms
+2018-05-17 12:03:41,348 INFO  [org.jboss.as] (MSC service thread 1-5) WFLYSRV0050: WildFly Full 10.1.0.Final (WildFly Core 2.2.0.Final) stopped in 88ms
