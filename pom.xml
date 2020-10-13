@@ -15,7 +15,7 @@
         <hibernate-core.version>4.3.11.Final</hibernate-core.version>
         <jboss-javaee-6.0.version>3.0.2.Final</jboss-javaee-6.0.version>
         <slf4j.version>1.7.5</slf4j.version>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
         <javax.json-api.version>1.0</javax.json-api.version>
         <xalan.version>2.7.1</xalan.version>
     </properties>
